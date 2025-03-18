@@ -5,8 +5,9 @@
 // This file contains the JS functions for index.html
 
 /**
- * Displays an alert with the message "Hello, World!"
+ * Do basic math.
  */
-function myButtonClicked() {
-  alert("Hello, World!")
+function doMathClicked() {
+  document.getElementById("add-math").innerHTML = "<p>5 + 3 + 5 + 3 = " + (5 + 3 + 5 + 3) + "</p>"
+  document.getElementById("multiply-math").innerHTML = "<p>5 × 3 = " + (5 * 3) + "</p>" 
 }
