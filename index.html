@@ -43,27 +43,39 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">The Area & Perimeter program, in JS!</span>
+          <span class="mdl-layout-title"
+            >The Area & Perimeter program, in JS!</span
+          >
         </div>
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/area_and_perimeter.png" alt="white text showing rectangle calculations on black background, image">
+          <img
+            src="./images/area_and_perimeter.png"
+            alt="white text showing rectangle calculations on black background, image"
+          />
         </div>
-        <div class="page-content">The dimensions of a rectangle are: 5cm and 3cm. </div>
-        <br />
-        <div class="page-content">The area is:</div> <id="multiply-math">
-        <br />
-        <div class="page-content">The perimeter is:</div> <id="add-math">
-        <br />
-        <br />
-          <!-- Raised button with ripple -->
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            onclick="doMathClicked()" type="button">
-            Do math
-          </button>
-          </main>
+        <div class="page-content">
+          <p>The dimensions of a rectangle are: 5cm and 3cm.</p>
+        </div>
+        <div class="page-content-answer">
+          <!-- basic text -->
+          <div id="area">
+            <p>The area is:</p>
           </div>
-          </body>
-          
-          </html>
+          <div id="perimeter">
+            <p>The perimeter is:</p>
+          </div>
+        </div>
+        <!-- Raised button with ripple -->
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="doMathClicked()"
+          type="button"
+        >
+          Do math
+        </button>
+      </main>
+    </div>
+  </body>
+</html>
